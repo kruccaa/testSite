@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти | PonyBoutique</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo"><i class="fa-solid fa-horse-head"></i> Pony<span>Boutique</span></a>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="index.html#catalog">Амуніція</a>
+            <a href="about.html">Про нас</a>
+            <a href="contact.html" class="active">Контакти</a>
+            <a href="#cart" class="cart-icon"><i class="fa-solid fa-bag-shopping"></i></a>
+        </nav>
+    </header>
+
+    <main class="container" style="margin-top: 60px; margin-bottom: 80px;">
+        <div class="section-header">
+            <h2>Зв'язатися з нами</h2>
+            <div class="divider"></div>
+            <p>Ми завжди раді проконсультувати вас та допомогти підібрати правильний розмір</p>
+        </div>
+
+        <div class="product-detail-layout">
+            <!-- Блок з інформацією -->
+            <div class="product-detail-info" style="padding-right: 20px;">
+                <h3 style="font-size: 1.8rem; color: var(--primary-color); margin-bottom: 30px;">Наш Шоурум</h3>
+                
+                <div style="margin-bottom: 30px;">
+                    <p style="font-weight: 700; color: var(--accent-color); text-transform: uppercase; font-size: 12px; letter-spacing: 1px;"><i class="fa-solid fa-location-dot"></i> Адреса</p>
+                    <p style="font-size: 1.1rem; color: var(--text-dark); margin-top: 5px;">м. Київ, Кінно-спортивний клуб "Elite", вул. Центральна, 42</p>
+                </div>
+
+                <div style="margin-bottom: 30px;">
+                    <p style="font-weight: 700; color: var(--accent-color); text-transform: uppercase; font-size: 12px; letter-spacing: 1px;"><i class="fa-solid fa-phone"></i> Телефони</p>
+                    <p style="font-size: 1.1rem; color: var(--text-dark); margin-top: 5px;">+38 (067) 123-45-67 <br> +38 (050) 765-43-21</p>
+                </div>
+
+                <div style="margin-bottom: 30px;">
+                    <p style="font-weight: 700; color: var(--accent-color); text-transform: uppercase; font-size: 12px; letter-spacing: 1px;"><i class="fa-solid fa-clock"></i> Графік роботи</p>
+                    <p style="font-size: 1.1rem; color: var(--text-dark); margin-top: 5px;">Вівторок — Неділя: 10:00 - 19:00 <br> Понеділок: вихідний</p>
+                </div>
+            </div>
+
+            <!-- Блок з формою -->
+            <div style="background: #fff; padding: 40px; border: 1px solid var(--border-color);">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--primary-color); margin-bottom: 25px;">Напишіть нам</h3>
+                
+                <!-- Професійна форма купівлі/запиту -->
+                <form action="#" method="POST">
+                    <div style="margin-bottom: 20px;">
+                        <input type="text" name="name" required placeholder="Ваше ім'я" style="width: 100%; padding: 12px; border: 1px solid var(--border-color); outline: none; font-size: 15px;">
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <input type="email" name="email" required placeholder="Ваш Email" style="width: 100%; padding: 12px; border: 1px solid var(--border-color); outline: none; font-size: 15px;">
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <input type="tel" name="phone" placeholder="Номер телефону" style="width: 100%; padding: 12px; border: 1px solid var(--border-color); outline: none; font-size: 15px;">
+                    </div>
+                    <div style="margin-bottom: 25px;">
+                        <textarea name="message" rows="5" required placeholder="Який товар чи розмір вас цікавить?" style="width: 100%; padding: 12px; border: 1px solid var(--border-color); outline: none; font-size: 15px; resize: none; font-family: sans-serif;"></textarea>
+                    </div>
+                    <button type="submit" class="btn-buy-large" style="font-size: 15px; letter-spacing: 1px;">Надіслати запит</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo"><i class="fa-solid fa-horse-head"></i> Pony<span>Boutique</span></a>
+                <p>Елегантність та комфорт у кожній деталі.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Інформація</h4>
+                <a href="#">Доставка і оплата</a>
+                <a href="#">Таблиця розмірів</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Контакти</h4>
+                <p><i class="fa-solid fa-phone"></i> +38 (067) 123-45-67</p>
+                <p><i class="fa-solid fa-envelope"></i> info@ponyboutique.ua</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 PonyBoutique. Всі права захищені.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
